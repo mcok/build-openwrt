@@ -6,7 +6,6 @@
 name: 通用设备编译固件
 
 on:
-  repository_dispatch:
   workflow_dispatch:
     inputs:
       source_branch:
@@ -200,4 +199,3 @@ jobs:
             - Login to OpenWrt → System → Amlogic Service → Install OpenWrt
             ### OpenWrt Image Verification
             - sha256sum
-    
